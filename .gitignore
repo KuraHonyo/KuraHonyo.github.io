@@ -6,3 +6,4 @@
 /.vs/kurahonyo.github.io/FileContentIndex
 *.json
 *.sqlite
+*.sqlite-journal
