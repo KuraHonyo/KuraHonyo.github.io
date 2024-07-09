@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/kurahonyo.github.io/v17
+/.vs/kurahonyo.github.io/FileContentIndex
+*.json
+*.sqlite
