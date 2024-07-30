@@ -32,32 +32,20 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Navigation settings
-navigation:
-  - name: "Home"
-    link: "/"
-  - name: "About"
-    link: "/about"
-  - name: "Portfolio"
-    link: "/portfolio"
-  - name: "Commission Info"
-    link: "/commission-info"
-  - name: "Order Form"
-    link: "/order-form"
-  - name: "Shop"
-    link: "/shop"
-  - name: "Blog/News"
-    link: "/blog"
-  - name: "Contact"
-    link: "/contact"
-  - name: "Testimonials"
-    link: "/testimonials"
-  - name: "FAQ"
-    link: "/faq"
-  - name: "Privacy Policy"
-    link: "/privacy-policy"
-  - name: "Terms and Conditions"
-    link: "/terms-and-conditions"
+# Navigation settings (custom for Minima theme)
+header_pages:
+  - index.md
+  - about.md
+  - portfolio.md
+  - commission-info.md
+  - order-form.md
+  - shop.md
+  - blog.md
+  - contact.md
+  - testimonials.md
+  - faq.md
+  - privacy-policy.md
+  - terms-and-conditions.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -78,56 +66,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-# Header and Footer Links (if using a custom theme that supports these)
-header_links:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about"
-  - title: "Portfolio"
-    url: "/portfolio"
-  - title: "Commission Info"
-    url: "/commission-info"
-  - title: "Order Form"
-    url: "/order-form"
-  - title: "Shop"
-    url: "/shop"
-  - title: "Blog/News"
-    url: "/blog"
-  - title: "Contact"
-    url: "/contact"
-  - title: "Testimonials"
-    url: "/testimonials"
-  - title: "FAQ"
-    url: "/faq"
-  - title: "Privacy Policy"
-    url: "/privacy-policy"
-  - title: "Terms and Conditions"
-    url: "/terms-and-conditions"
-
-footer_links:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about"
-  - title: "Portfolio"
-    url: "/portfolio"
-  - title: "Commission Info"
-    url: "/commission-info"
-  - title: "Order Form"
-    url: "/order-form"
-  - title: "Shop"
-    url: "/shop"
-  - title: "Blog/News"
-    url: "/blog"
-  - title: "Contact"
-    url: "/contact"
-  - title: "Testimonials"
-    url: "/testimonials"
-  - title: "FAQ"
-    url: "/faq"
-  - title: "Privacy Policy"
-    url: "/privacy-policy"
-  - title: "Terms and Conditions"
-    url: "/terms-and-conditions"
